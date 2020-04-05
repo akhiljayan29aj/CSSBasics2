@@ -1,0 +1,40 @@
+li{
+    padding: 0.25rem;
+    margin: 0.25rem;
+    list-style: none;
+}
+
+/* First Child */
+
+li:first-child{
+    background: red;
+}
+
+/* Last child */
+
+li:last-child{
+    background: rosybrown;
+}
+
+/* Position 3 */
+
+li:nth-child(3){
+    background: royalblue;
+}
+
+/* Every Seventh */
+
+li:nth-child(7n+0){
+    background: sandybrown;
+}
+
+/* Every third after 9 */
+
+li:nth-child(3n+9){
+    background: coral;
+}
+
+/* Every Odd */
+li:nth-child(odd){
+    background: #ccc;
+}
